@@ -1,0 +1,10 @@
+{
+    "name": "clr_tst",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "clr_tst.xml",
+    "author": "daltonjames",
+    "minimum_firmware_version": 42
+}
