@@ -186,17 +186,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_setmotors" id="163" inline="true">
-        <value name="BOTHMOVLEFT">
-          <block type="math_number" id="164">
-            <field name="NUM">100</field>
-          </block>
-        </value>
-        <value name="BOTHMOVRIGHT">
-          <block type="math_number" id="165">
-            <field name="NUM">-100</field>
-          </block>
-        </value>
+      <block type="movement_right" id="196">
         <next>
           <block type="robot_delay" id="180" inline="true">
             <value name="DELAY">
@@ -247,5 +237,17 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="movement_setmotors" id="163" inline="true" disabled="true" x="333" y="723">
+    <value name="BOTHMOVLEFT">
+      <block type="math_number" id="164">
+        <field name="NUM">100</field>
+      </block>
+    </value>
+    <value name="BOTHMOVRIGHT">
+      <block type="math_number" id="165">
+        <field name="NUM">-100</field>
+      </block>
+    </value>
   </block>
 </xml>
